@@ -113,6 +113,7 @@ source ~/.bash_profile
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias dot='/usr/bin/git --git-dir=/Users/tpires/.dotfiles/ --work-tree=/Users/tpires'
+config dot --local status.showUntrackedFiles no
 
 
 
